@@ -16,12 +16,12 @@ while True:
 		print('Ваше число меньше того, что загадано.')
 	
 	# Если число больше загаданного...
-	if guess_Ahahaha > number:
+	elif guess_Ahahaha > number:
 		# ...выводим сообщение.
 		print('Ваше число больше того, что загадано.')
 	
 	# Если число угадано...
-	if guess_Ahahaha == number:
+	elif guess_Ahahaha == number:
 		# ...прерываем выполнение программы и...
 		break
 # ...выводим сообщение.
